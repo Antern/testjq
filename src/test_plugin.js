@@ -94,6 +94,9 @@
         };
         _uidList.push(uid);
         refreshArrows(uid);
+        
+        // select first by default
+        selectSlide(uid, $(sl.find(`.${slideClass}`)[0]));
     }
 
 
