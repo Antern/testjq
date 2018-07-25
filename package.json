@@ -1,0 +1,39 @@
+{
+  "name": "testjq",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-webserver": "^0.9.1",
+    "install": "^0.12.1",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "npm": "^6.2.0",
+    "postcss-calc": "^6.0.1",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0",
+    "webpack": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antern/testjq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antern/testjq/issues"
+  },
+  "homepage": "https://github.com/Antern/testjq#readme"
+}
