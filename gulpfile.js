@@ -8,13 +8,19 @@ gulp.task('webpack:watch', (cb) => {
     let f;
 
     webpack(_.mergeWith({}, webpackCfg, {
-      entry: [
-        './src/test_plugin.js',
-        './src/script.js'
-      ],
-      output: {
-        filename: './bundle.js'
-      },
+        plugins: [
+            new webpack.ProvidePlugin({
+                $: "jquery",
+                jQuery: "jquery"
+            })
+        ],
+        entry: [
+            './src/test_plugin.js',
+            './src/script.js'
+        ],
+        output: {
+            filename: './bundle.js'
+        },
     }, (o,src) => { if(_.isArray(o)) return o.concat(src) } ),
     
     (err, stats) => {
