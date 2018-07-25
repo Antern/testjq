@@ -3,25 +3,22 @@ html {
     user-select: none;
 }
 
+/* @media (max-height: 960px) { html { font-size: 9px } } */
+
+
 .app-wrapper {
-    width: 100%;
+    /* width: 100%;
     height: 100%;
-    position: relative;
+    position: relative; */
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.h, .f {
-    /* width: 100%; */
-    background-color: lightgrey;
-    height: 4rem;
-}
-
 .c {
-    background-color: lightblue;
-    height: 100%;
+    /* background-color: lightblue; */
+    /* height: 100%; */
 
     display: flex;
     flex-direction: row;
@@ -34,7 +31,7 @@ html {
     flex-direction: column;
     justify-content: space-around;
     width: 117rem;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
 }
 
 .preview {
@@ -46,6 +43,7 @@ html {
 
 .preview-wrapper {
     height: 60rem;
+    margin-bottom: 2rem;
 }
 
 .s-wrapper {
